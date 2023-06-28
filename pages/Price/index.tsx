@@ -127,7 +127,7 @@ export default function PriceView({
     <form className="flex flex-col ">
     <section className="flex justify-between mb-6 mt-4 items-start p-4 shadow-md shadow-white rounded-md">
       <label htmlFor="sell-amount" className="sr-only"></label>
-      <input inputmode="decimal" autocomplete="off" autocorrect="off" type="text" pattern="^[0-9]*[.,]?[0-9]*$" placeholder="0" minlength="1" maxlength="79" spellcheck="false" value=""
+      <input inputMode="decimal" autocomplete="off" autocorrect="off" type="text" pattern="^[0-9]*[.,]?[0-9]*$" placeholder="0" minlength="1" maxlength="79" spellcheck="false" value=""
       id="sell-amount"
       value={sellAmount}
       className="w-1/2 h-9 text-4xl rounded-md bg-transparent"
