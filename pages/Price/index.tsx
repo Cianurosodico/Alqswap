@@ -131,7 +131,7 @@ export default function PriceView({
       autoComplete="off" 
       autoCorrect="off" type="text"
       pattern="^[0-9]*[.,]?[0-9]*$" 
-      placeHolder="0" minLength="1" maxLength="79" spellCheck="false"
+      placeHolder="0" minLength="1" maxLength="79" spellCheck="false"  value = {sellAmount}
       id="sell-amount"
       value={sellAmount}
       className="w-1/2 h-9 text-4xl rounded-md bg-transparent"
