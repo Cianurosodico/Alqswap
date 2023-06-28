@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24`}
+      className={`flex flex-col mx-8 pt-8 md:max-w-80 min-w-50 place-items-center`}
     >
       {finalize && price ? (
         <QuoteView
