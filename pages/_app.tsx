@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <div
-      className ="grid place-items-center h-screen p-4 rounded-lg mb-3"
+      className =""
       style={{
         padding: "20px",
       }}
@@ -41,7 +41,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <WagmiConfig config={config}>
         <ConnectKitProvider>
           <ConnectKitButton />
-          {mounted && <Component {...pageProps} />}
+          {mounted && <Component className ="grid place-items-center h-screen p-4 rounded-lg mb-3"{...pageProps} />}
         </ConnectKitProvider>
       </WagmiConfig>
     </div>
