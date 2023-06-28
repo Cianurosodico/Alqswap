@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <div
-      className ="flex p-4 rounded-lg mb-3"
+      className ="grid place-items-center h-screen p-4 rounded-lg mb-3"
       style={{
         padding: "20px",
       }}
