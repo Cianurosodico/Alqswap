@@ -45,7 +45,7 @@ export default function PriceView({
   takerAddress: Address | undefined;
 }) {
   // fetch price here
-  const [sellAmount, setSellAmount] = useState("");
+  const [sellAmount, setSellAmount] = useState<number>(0);
   const [buyAmount, setBuyAmount] = useState("");
   const [tradeDirection, setTradeDirection] = useState("sell");
   const [sellToken, setSellToken] = useState("ogt");
