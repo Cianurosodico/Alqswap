@@ -48,8 +48,8 @@ export default function PriceView({
   const [sellAmount, setSellAmount] = useState("");
   const [buyAmount, setBuyAmount] = useState("");
   const [tradeDirection, setTradeDirection] = useState("sell");
-  const [sellToken, setSellToken] = useState("wmatic");
-  const [buyToken, setBuyToken] = useState("dai");
+  const [sellToken, setSellToken] = useState("usdt");
+  const [buyToken, setBuyToken] = useState("alq");
 
   const handleSellTokenChange = (e: ChangeEvent<HTMLSelectElement>) => {
     setSellToken(e.target.value);

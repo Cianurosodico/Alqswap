@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { WagmiConfig, createConfig } from "wagmi";
-import { polygon, bsc , polygonMumbai} from "wagmi/chains";
+import { polygon, bsc } from "wagmi/chains";
 import {
   ConnectKitProvider,
   ConnectKitButton,
