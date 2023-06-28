@@ -51,7 +51,7 @@ export default function PriceView({
   const [sellToken, setSellToken] = useState("ogt");
   const [buyToken, setBuyToken] = useState("alq");
 
-  const handleTokenSwitch =  (e) => {
+  const handleTokenSwitch =  (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     setBuyToken(sellToken);
     setSellToken(buyToken);
