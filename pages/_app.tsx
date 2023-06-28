@@ -1,12 +1,16 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import { WagmiConfig, createConfig } from "wagmi";
+import { WagmiConfig, createConfig, chain } from "wagmi";
+import { polygon, bsc , polygonMumbai} from "wagmi/chains";
 import {
   ConnectKitProvider,
   ConnectKitButton,
   getDefaultConfig,
 } from "connectkit";
 import { useEffect, useState } from "react";
+
+const chains = [bsc, polygon];
+
 
 const config = createConfig(
   getDefaultConfig({
@@ -19,6 +23,7 @@ const config = createConfig(
 
     // Optional
     appDescription: "A Next.js demo app for 0x Swap API and ConnectKit",
+    chains,
   })
 );
 
@@ -28,6 +33,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <div
+      classname ="flex p-4 rounded-lg mb-3"
       style={{
         padding: "20px",
       }}
