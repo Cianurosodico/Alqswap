@@ -48,7 +48,7 @@ export default function PriceView({
   const [sellAmount, setSellAmount] = useState("");
   const [buyAmount, setBuyAmount] = useState("");
   const [tradeDirection, setTradeDirection] = useState("sell");
-  const [sellToken, setSellToken] = useState("ogt");
+  const [sellToken, setSellToken] = useState("usdt");
   const [buyToken, setBuyToken] = useState("alq");
 
   const handleTokenSwitch =  (e: React.MouseEvent<HTMLButtonElement>) => {
