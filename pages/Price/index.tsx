@@ -154,7 +154,7 @@ export default function PriceView({
             {/* <option value="">--Choose a token--</option> */}
       {POLYGON_TOKENS.map((token) => {
         return (
-          <option
+          <option className="text-black"
           key={token.address}
           value={token.symbol.toLowerCase()}
           >
@@ -210,7 +210,7 @@ export default function PriceView({
         {/* <option value="">--Choose a token--</option> */}
     {POLYGON_TOKENS.map((token) => {
       return (
-        <option key={token.address} value={token.symbol.toLowerCase()}>
+        <option className="text-black" key={token.address} value={token.symbol.toLowerCase()}>
         {token.symbol}
         </option>
         );
