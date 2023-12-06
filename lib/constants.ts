@@ -45,21 +45,15 @@ export const POLYGON_TOKENS: Token[] = [
     logoURI:
       "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/usdt.svg",
   },
-<<<<<<< HEAD
-<<<<<<< HEAD
   {
     chainId: 56,
-    name: "BNB",
-    symbol: "BNB",
-    decimals: 18,
-    address: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    name: "Wrapped bnb",
+    symbol: "Wbnb",
+    decimals: 8,
+    address: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
     logoURI:
       "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/bnb.svg",
   },
-=======
->>>>>>> parent of 472a0f45 (Add WBNB)
-=======
->>>>>>> parent of 472a0f45 (Add WBNB)
 ];
 
 export const POLYGON_TOKENS_BY_SYMBOL: Record<string, Token> = {
@@ -89,22 +83,15 @@ export const POLYGON_TOKENS_BY_SYMBOL: Record<string, Token> = {
     logoURI:
       "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/usdt.svg",
   },
-<<<<<<< HEAD
-<<<<<<< HEAD
-  bnb: {
+  wbnb: {
     chainId: 56,
-    name: "BNB",
-    symbol: "BNB",
+    name: "Wrapped bnb",
+    symbol: "Wbnb",
     decimals: 18,
-    address: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    address: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
     logoURI:
       "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/bnb.svg",
   },
-
-=======
->>>>>>> parent of 472a0f45 (Add WBNB)
-=======
->>>>>>> parent of 472a0f45 (Add WBNB)
 };
 
 export const POLYGON_TOKENS_BY_ADDRESS: Record<string, Token> = {
@@ -134,21 +121,15 @@ export const POLYGON_TOKENS_BY_ADDRESS: Record<string, Token> = {
     logoURI:
       "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/usdt.svg",
   },
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE": {
+  "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c": {
     chainId: 56,
-    name: "BNB",
-    symbol: "BNB",
+    name: "Wrapped bnb",
+    symbol: "Wbnb",
     decimals: 18,
-    address: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    address: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
     logoURI:
       "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/bnb.svg",
-  }, 
-=======
->>>>>>> parent of 472a0f45 (Add WBNB)
-=======
->>>>>>> parent of 472a0f45 (Add WBNB)
+  },
 };
 
 
