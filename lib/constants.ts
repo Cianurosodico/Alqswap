@@ -47,10 +47,10 @@ export const POLYGON_TOKENS: Token[] = [
   },
   {
     chainId: 56,
-    name: "Wrapped bnb",
-    symbol: "Wbnb",
+    name: "BNB",
+    symbol: "BNB",
     decimals: 8,
-    address: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    address: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
     logoURI:
       "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/bnb.svg",
   },
@@ -83,12 +83,12 @@ export const POLYGON_TOKENS_BY_SYMBOL: Record<string, Token> = {
     logoURI:
       "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/usdt.svg",
   },
-  wbnb: {
+  bnb: {
     chainId: 56,
-    name: "Wrapped bnb",
-    symbol: "Wbnb",
+    name: "BNB",
+    symbol: "BNB",
     decimals: 18,
-    address: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    address: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
     logoURI:
       "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/bnb.svg",
   },
@@ -121,12 +121,12 @@ export const POLYGON_TOKENS_BY_ADDRESS: Record<string, Token> = {
     logoURI:
       "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/usdt.svg",
   },
-  "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c": {
+  "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE": {
     chainId: 56,
-    name: "Wrapped bnb",
-    symbol: "Wbnb",
+    name: "BNB",
+    symbol: "BNB",
     decimals: 18,
-    address: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    address: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
     logoURI:
       "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/bnb.svg",
   },
