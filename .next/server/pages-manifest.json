@@ -2,13 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/Orderbook": "pages/Orderbook.html",
-  "/Price": "pages/Price.html",
-  "/Quote": "pages/Quote.html",
-  "/api/orderbook": "pages/api/orderbook.js",
-  "/api/price": "pages/api/price.js",
-  "/api/quote": "pages/api/quote.js",
-  "/api/types": "pages/api/types.js",
-  "/": "pages/index.html",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }
