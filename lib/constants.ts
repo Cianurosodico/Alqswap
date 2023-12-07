@@ -53,7 +53,7 @@ export const POLYGON_TOKENS: Token[] = [
     address: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
     logoURI:
       "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/bnb.svg",
-  }
+  },
 ];
 
 export const POLYGON_TOKENS_BY_SYMBOL: Record<string, Token> = {
@@ -91,7 +91,7 @@ export const POLYGON_TOKENS_BY_SYMBOL: Record<string, Token> = {
     address: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
     logoURI:
       "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/bnb.svg",
-  }
+  },
 };
 
 export const POLYGON_TOKENS_BY_ADDRESS: Record<string, Token> = {
@@ -129,7 +129,7 @@ export const POLYGON_TOKENS_BY_ADDRESS: Record<string, Token> = {
     address: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
     logoURI:
       "https://raw.githubusercontent.com/maticnetwork/polygon-token-assets/main/assets/tokenAssets/bnb.svg",
-  }
+  },
 };
 
 

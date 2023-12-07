@@ -13,7 +13,7 @@
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
     "autoprefixer": "10.4.14",
-    "connectkit": "^1.4.0",
+    "connectkit": "^1.5.3",
     "eslint": "8.40.0",
     "eslint-config-next": "12.3.4",
     "ethers": "^6.4.0",
@@ -25,8 +25,8 @@
     "react-dom": "18.2.0",
     "swr": "^2.1.5",
     "typescript": "5.0.4",
-    "viem": "^0.3.50",
-    "wagmi": "^1.1.0"
+    "viem": "^1.19.11",
+    "wagmi": "^1.4.10"
   },
   "devDependencies": {
     "@types/qs": "^6.9.7",
