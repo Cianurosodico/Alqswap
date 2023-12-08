@@ -13,13 +13,8 @@ export default function Home() {
 
   return (
     <main
-      className={`flex flex-row w-full h-full justify-center`}
+      className={`flex flex-col mx-8 pt-8 md:max-w-80 min-w-50 place-items-center`}
     >
-      <div className="flex justify-center w-[80%] ">
-        <iframe className="w-[100%] h-[100%] mx-5 my-5" src="https://dexscreener.com/bsc/0xb9081e31c419625E318eDcA4c89f071d643A94D0?embed=1&theme=dark&trades=0&info=0"></iframe>
-      
-      </div>
-
       {finalize && price ? (
         <QuoteView
           takerAddress={address}

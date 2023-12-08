@@ -8,7 +8,6 @@ import {
   getDefaultConfig,
 } from "connectkit";
 import { useEffect, useState } from "react";
-import { collapseTextChangeRangesAcrossMultipleVersions } from "typescript";
 
 const chains = [bsc, polygon];
 
@@ -33,12 +32,16 @@ export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => setMounted(true), []);
 
   return (
-    <div className="flex flex-col justify-center items-center padding-24 h-screen">
-    
+    <div
+      className =""
+      style={{
+        padding: "20px",
+      }}
+    >
       <WagmiConfig config={config}>
         <ConnectKitProvider>
           <ConnectKitButton />
-          {mounted && <Component {...pageProps} />}
+          {mounted && <Component className ="grid place-items-center h-screen p-4 rounded-lg mb-3"{...pageProps} />}
         </ConnectKitProvider>
       </WagmiConfig>
     </div>
